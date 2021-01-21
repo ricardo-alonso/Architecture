@@ -7,6 +7,14 @@ namespace Architecture
     {
         static void Main(string[] args)
         {
+            #region Algoritmos
+
+            var r1 = Algoritmhs.LongestCommonPrefix.Solution(new string[] { "cir", "car" }); //{"ab", "a"}|| { "flower", "flow", "flight" } || "cir","car"
+            var r2 = Algoritmhs.RomanToInt.Solution("MCMXCIV");
+            var r3 = Algoritmhs.LetterCombinationsofaPhoneNumber.Solution("23");//doesnt works
+            #endregion
+
+
             #region SimpleFactory
 
             Console.WriteLine("*** Simple Factory Pattern Demo***\n");
