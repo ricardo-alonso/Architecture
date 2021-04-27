@@ -8,10 +8,17 @@ namespace Architecture
         static void Main(string[] args)
         {
             #region Algoritmos
+            //int[] arr7 = { 10, 2, 8, 15, 6, 4 };
+            int[] arr7 = { 3,65,1,13,6,2,8,78,5,8 };
+            var arrrs = Algoritmhs.InsertionSort.Result(arr7);
 
+            int[] arr = { -1, 0, 1, 2, -1, -4 };
+            var r5 = Algoritmhs._3Sum.Result(arr);
             var r1 = Algoritmhs.LongestCommonPrefix.Solution(new string[] { "cir", "car" }); //{"ab", "a"}|| { "flower", "flow", "flight" } || "cir","car"
             var r2 = Algoritmhs.RomanToInt.Solution("MCMXCIV");
             var r3 = Algoritmhs.LetterCombinationsofaPhoneNumber.Solution("23");//doesnt works
+            var r4 = Algoritmhs.BracketMatcher.Solution2("01()01()01()");//"(c(oder)) b(yte)"||"the color re(d))()(()" ||"01()01()01()"
+            var r6 = Algoritmhs.GenerateParentheses.Solution(3);
             #endregion
 
 

@@ -9,6 +9,7 @@ namespace DesignPatterns.Database
 {
     public class RepositoryPattern
     {
+        //https://github.com/fekberg/c-sharp-design-patterns-data-access-patterns
         //Startup.cs:
         //services.AddTransient<ShoppingContext>();
         //services.AddTransient<IRepository<Customer>, CustomerRepository>();
